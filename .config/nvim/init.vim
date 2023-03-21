@@ -5,7 +5,7 @@ syntax on
 call plug#begin('~/.config/nvim/plugged')
 
 " Color schemes.
-" Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'Mofiqul/dracula.nvim'
 
 " Telescope plugin requires plenary to function.
