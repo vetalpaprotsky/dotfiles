@@ -47,7 +47,7 @@ Plug 'RRethy/vim-illuminate'
 Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
 
 " Rainbow parentheses using tree-sitter.
-Plug 'p00f/nvim-ts-rainbow'
+" Plug 'p00f/nvim-ts-rainbow'
 
 " Commenting support.
 Plug 'numToStr/Comment.nvim'
