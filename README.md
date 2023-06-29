@@ -4,9 +4,9 @@
 
 ```
 dotfiles status
-dotfiles add .vimrc
-dotfiles commit -m "Add vimrc"
-dotfiles add .bashrc
-dotfiles commit -m "Add bashrc"
+dotfiles add .config/nvim
+dotfiles commit -m "Add nvim"
+dotfiles add .tmux.conf
+dotfiles commit -m "Add tmux"
 dotfiles push
 ```
