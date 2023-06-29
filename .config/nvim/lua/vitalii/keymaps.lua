@@ -71,6 +71,7 @@ keymap("n", "<leader>gb", ":Gitsigns blame_line<CR>", opts)
 keymap("n", "<leader>gp", ":Gitsigns prev_hunk<CR>", opts)
 keymap("n", "<leader>gd", ":Gitsigns diffthis<CR>", opts)
 keymap("n", "<leader>gr", ":Gitsigns reset_hunk<CR>", opts)
+keymap("n", "<leader>ga", ":Gitsigns stage_hunk<CR>", opts)
 
 -- Telescope
 local tel_builtin = require("telescope.builtin")
