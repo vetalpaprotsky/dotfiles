@@ -82,6 +82,8 @@ Plug 'ronakg/quickr-preview.vim'
 " Delete/change/add parentheses/quotes/XML-tags/much more with ease.
 Plug 'tpope/vim-surround'
 
+Plug 'ThePrimeagen/harpoon', { 'branch': 'harpoon2' }
+
 call plug#end()
 
 " ******************** LUA CONFIGS ********************
@@ -102,6 +104,7 @@ lua require('vitalii/lualine')
 lua require('vitalii/bufferline')
 lua require('vitalii/indent_blankline')
 lua require('vitalii/fterm')
+lua require('vitalii/harpoon')
 
 " ******************** VIMSCRIPT CONFIGS ********************
 
